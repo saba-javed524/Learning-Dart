@@ -1,0 +1,9 @@
+/*This is Dart Comment Method
+ * 2nd line
+ * 3rd....
+ * */
+void main() {
+  print("Hello Dart"); //this is my hello wordl print statemnt
+  //here i performed a mathemetical operation
+  print(4+1-5);
+  print(true);  //this is a boolean output
