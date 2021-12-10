@@ -1,0 +1,44 @@
+
+void main() {
+  //int example
+  int score = 90;
+  
+  //string example
+  String name = "saba";
+  
+  //boolean example
+  bool isValid = true;
+  
+  //var int example
+  var number = 18;
+  
+  //var string example
+  var firstName = "Saba";
+  
+  //var boolean example
+  var isTrue = false;
+  
+  //double example
+  double perc = 0.323;
+  
+  //hex example
+  double hexValue = 0xEEEEEE;
+  
+  //exponent example
+  double expValue = 1.42e5;
+  
+  
+  //print
+  print(score);
+  print(name);
+  print(isValid);
+  print(number);
+  print(firstName);
+  print(isTrue);
+  print(perc);
+  print(hexValue);
+  print(expValue);
+  
+  //all data types in dart are objects
+  //that is why by default their values are null
+}
