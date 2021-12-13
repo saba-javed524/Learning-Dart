@@ -1,0 +1,31 @@
+void main() {
+  //final and const keyword
+  //if you never want to change a value, then u use final and const keyword
+  //final variable set when they are initialized 
+  //constant keyword is initialized during compilation
+  //instance variables are those that are present within the class
+  //instance variables can be final but cannot be constant
+  //if  you want to use a constant in the class then make it static constant
+  
+  //const keyword
+  const Name = "saba";
+  //Name = "Javed";
+  print(Name);
+  const PI = 3.14;
+  const double gravity = 9.8;
+  
+  
+  
+  //final keyword
+  final cityName = "islamabad"; // no need to write string because it is automatically inferred dur to the citname in ""
+ // cityName = "RWP";
+  final String countryName = "Pakistan";
+  print (cityName);
+  print (countryName);
+}
+
+class Circle {
+  final color = "Black";
+  static const PI = 3.3;
+  
+}
