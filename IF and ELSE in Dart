@@ -1,0 +1,30 @@
+void main() {
+  // If ELSE Statements
+  var salary = 50000;
+  if (salary > 60000){
+    print("CONGO");
+  }
+  else {
+    print ("You will be there");
+  }
+  
+  //IF ELSE IF Ladder Statements
+  var marks = 90;
+  var grade;
+  if (marks <= 100 && marks >80){
+    grade = "A+";
+  }
+  else if (marks <= 80 && marks >=60){
+    grade = "B";
+  }
+  else if (marks <= 60 && marks >40){
+    grade = "C";
+  }
+  else if (marks>=0 && marks < 40){
+    grade = "F";
+  }
+  else{
+    grade = "Invalid Marks";
+  }
+  print ("Grade is $grade");
+}
