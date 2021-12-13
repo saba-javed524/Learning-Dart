@@ -24,4 +24,11 @@ void main() {
   print(s4);
   print("$firstName $secondName"); //using + for interpolation in dart is a bad practice
   print("length of my full name is ${firstName.length + secondName.length}");
+  
+  
+  int l = 20;
+  int b = 30;
+  
+  print("The sum of length $l and breadth $b is ${l+b}");
+  print("the area of $l and $b is ${l*b}"); // use $ instead of + for string interpolation
 }
