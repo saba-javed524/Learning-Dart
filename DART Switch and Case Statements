@@ -1,0 +1,31 @@
+void main(){
+  //SWITCH CASE Statements for int and string only
+  
+  String grade = "A";
+  switch(grade){   //parameter/variable i.e. grade, only inta nd str are allowed, no bool or double
+      
+    case "A" : {
+        print("You have got an A");
+        break;
+      }
+      
+      case "B" : {
+        print("You have got a B");
+        break;
+      }
+      
+      case "C" : {
+        print("You have got a C");
+        break;
+      }
+      
+      case "F" : {
+        print("You have Failed. Try hard next time");
+        break;
+      }
+      
+      default : {
+        print("Invalid Grade");
+      }
+  }
+}
