@@ -1,0 +1,27 @@
+void main() {
+  //literals
+  //literals are values, that we define to the variablees
+  int num1 = 2;
+  String name = "saba";
+  
+  //Various ways to define string literals in Dart
+  String s1 = "saba1";
+  String s2 = 'saba2';
+  String s3 = 'it\'s simple'; //backslash is used to not confuse  ''
+  String s4 = "This is a very long statement s1." 
+              "This is a very long statement s2. "; //we dont need to use + in dart
+  
+  //interpolation
+  String firstName = "saba";
+  String secondName = "javed";
+  //int nameLength = firstName.length + secondName.length;
+
+  
+  //print
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+  print("$firstName $secondName"); //using + for interpolation in dart is a bad practice
+  print("length of my full name is ${firstName.length + secondName.length}");
+}
