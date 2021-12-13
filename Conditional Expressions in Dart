@@ -1,0 +1,34 @@
+void main(){
+  //Conditional Expressions
+  
+  //1. condition ? exp1 : exp2
+  //if the conidtion is true, evaluate exp1 (and return its value)
+  //otherwise, evaluate and return the value of exp2
+  
+  //find the smalles number of the given two numbers
+  int a = 5;
+  int b = 3;
+  int smallNumber;
+  
+  if (a<b){
+    smallNumber = a;
+  }
+  else{
+    smallNumber = b;
+  }
+  print("small number is $smallNumber");
+  
+  smallNumber = a<b ? a : b;
+  print("smallllll number is $smallNumber");
+  
+
+  
+  //exp1 ?? exp2
+  //if exp1 is non-null, return exp1
+  //otherwise, evaluate and return exp2
+  
+  String name = "Saba";
+  String nameToPrint = name ?? "Guest User";
+  print(nameToPrint);
+
+}
