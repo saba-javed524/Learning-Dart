@@ -1,0 +1,23 @@
+void main(){
+  //break keyword
+  //using labels
+  
+  for (int i = 1; i<=10; i++){
+    //print (i);
+    
+    if(i==5){
+      break;
+    }
+  }
+  
+  outerLoop : for (int j = 1; j<=3; j++){
+    for (int h = 1; h<=3; h++){
+      print("$j $h");
+      if(j==2 && h==2){
+        break outerLoop;
+      }
+    }
+  }
+  
+  
+}
