@@ -1,0 +1,21 @@
+//Optional Parameters
+
+void main(){
+  //printCountries("Pakistan", "USA", "England");
+  findA(2,3, B3:15);
+}
+
+//printCountries(String C1, String C2, [String C3]){
+  //print("Country one is $C1");
+  //print("Country two is $C2");
+  //print("Country three is $C3");
+//}
+
+void findA(int B1, int B2, {int B3:10}){
+  print("B1 one is $B1");
+  print("B2 two is $B2");
+  print("B3 three is $B3");
+  var result = (B1*B2*B3);
+  
+  print(result);
+}
